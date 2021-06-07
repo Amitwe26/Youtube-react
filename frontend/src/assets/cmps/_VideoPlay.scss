@@ -1,0 +1,40 @@
+.video-player {
+    width: 100%;
+    height: 50%;
+    padding: 15px;
+    .info {
+        padding: 15px;
+        border-bottom: 1px solid gray;
+        .options {
+            display: flex;
+            align-items: center;
+            .star {
+                border: none;
+                font-size: 15px;
+                color: #ffffff;
+                background-color: black;
+                border-radius: 50%;
+                margin-inline-start: 10px;
+                outline-style: none;
+                :hover {
+                    cursor: pointer;
+                }
+            }
+            .btn-option {
+                box-sizing: border-box;
+                border: none;
+                padding: 5px;
+                margin-inline-start: 9px;
+                font-size: 16px;
+                background-color: white;
+                &:hover {
+                    border-bottom: 1px solid black;
+                    cursor: pointer;
+                }
+            }
+        }
+        .favorite {
+            color: yellow;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+//HELPER
+@import "./helpers.scss";
+@import "./style.scss";
+
+//PAGES
+@import "./pages/Home";
+
+//CMPS
+@import "./cmps/VideoPreview";
+@import "./cmps/FavoritePreview";
+@import "./cmps/VideoList";
+@import "./cmps/VideoApp";
+@import "./cmps/VideoPlay";
+@import "./cmps/NavBar";
+@import "./cmps/FavoritesFilter";
+
+//RESPONSIVE
+@import "./cmps/Responsive";
+
+body {
+    margin: 0;
+    width: 100vw;
+    box-sizing: border-box;
+}

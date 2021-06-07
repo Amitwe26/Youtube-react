@@ -1,0 +1,26 @@
+.video-preview {
+    // box-shadow: 0 2px 4px 0 rgba(60, 64, 67, 0.302), 0 4px 12px 4px rgba(60, 64, 67, 0.149);
+    box-shadow: 1px 1px 0px 0 rgba(233, 233, 233, 0.3), 0 1px 10px 2px rgba(204, 207, 210, 0.15);
+    border-radius: 3px;
+    margin: 10px;
+    overflow-x: hidden;
+    &:hover {
+        cursor: pointer;
+    }
+    .video-content {
+        font-size: 0.8em;
+        flex: 3;
+        padding: 0.5rem;
+    }
+    .video-img {
+        flex: 1;
+        width: 100%;
+        margin: 5px;
+        // border-radius: 3px;
+        object-fit: contain;
+    }
+    p {
+        margin-block-start: 0.3px;
+        text-align: left;
+    }
+}

@@ -1,0 +1,66 @@
+@media screen and (max-width: 1060px) {
+    .nav-bar {
+        .info .avatar {
+            margin: 0;
+        }
+        .form {
+            width: 300px;
+            input {
+                width: 100%;
+            }
+        }
+    }
+
+    .video-app {
+        flex-direction: column;
+    }
+    .video-list {
+        width: 90vw;
+        margin: 0 auto;
+    }
+    .video-player {
+        width: 96vw;
+        margin: 20px auto;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .nav-bar {
+        img {
+            width: 80px;
+            height: 44px;
+        }
+        .info .avatar {
+            margin: 0;
+        }
+        .form {
+            width: 150px;
+            input {
+                width: 120px;
+            }
+        }
+    }
+    .modal-bar {
+        height: 50px;
+        overflow-y: scroll;
+        span {
+            margin-left: 5px;
+        }
+        a {
+            font-size: 13px;
+        }
+    }
+    .favorite-preview {
+        flex-direction: column;
+        text-align: center;
+        width: 85vw;
+        margin-bottom: 25px;
+        .video-img {
+            justify-self: center;
+        }
+        .video-content {
+            padding: 5px;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.filter {
+    display: flex;
+    justify-content: end;
+    width: 130px;
+    input {
+        border: none;
+        border-bottom: 1px solid gray;
+        border-radius: 3px;
+    }
+}

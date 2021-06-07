@@ -1,0 +1,16 @@
+.home-page {
+    text-align: center;
+    .favo-list {
+        overflow-x: scroll;
+        .favorite-preview {
+            flex-direction: column;
+            min-width: 150px;
+            height: 128px;
+            padding: 10px;
+            margin: 5px;
+            white-space: nowrap;
+            overflow: hidden !important;
+            text-overflow: ellipsis;
+        }
+    }
+}
